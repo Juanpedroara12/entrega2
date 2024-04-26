@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLEGIO JOSE ABELARDO</title>
+
+    <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Vinculamos CSS personalizado -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/COLEGIO.png" alt="Logo" width="32" height="32" class="d-inline-block align-text-top">
+                COLEGIO JOSE ABELARDO
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <!-- Carrusel -->
+
+        <div class="row">
+            <div class="col-md-10">
+    
+
+        <div id="carouselExample" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/1.jpg" class="d-block w-100" alt="10" width="50">
+              </div>
+              <div class="carousel-item">
+                <img src="img/2.jpg" class="d-block w-100" alt="50" width="50">
+              </div>
+              <div class="carousel-item">
+                <img src="img/3.jpg" class="d-block w-100" alt="50" width="50">
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-1">
+
+        </div>
+ 
+    
+    <!-- tarjeta -->
+
+    <div class="row">
+
+        <div class="col-md-4">
+            
+        </div>
+
+
+
+        <div class="col-md-8">
+
+        
+            <div class="card" style="width: 18rem;">
+        
+                <img src="img/COLEGIO.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nuestra institucion</h5>
+                  <p class="card-text">Innovación, liderazgo e inclusión en la formación de nuestros alumnos que se proyectan hacia el futuro..</p>
+                  <a href="#" class="btn btn-primary">Mas Informacion sobre nuestro Colegio</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+      <!-- Formulario de Contacto -->
+  <div class="container">
+    <hr>
+    <h2>Contacto a su profesor</h2>
+    <form>
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" class="form-control" id="nombre">
+      </div>
+      <div class="form-group">
+        <label for="nombreProf">Nombre del profesor:</label>
+        <input type="text" class="form-control" id="nombreProf">
+      </div>
+      <div class="form-group">
+        <label for="curso">Curso:</label>
+        <input type="curso" class="form-control" id="Curso">
+      </div>
+      <div class="form-group">
+        <label for="email"> su Correo:</label>
+        <input type="correo" class="form-control" id="curso">
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Mensaje:</label>
+        <textarea class="form-control" id="mensaje" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+
+
+          
+</body>

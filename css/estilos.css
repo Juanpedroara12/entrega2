@@ -1,0 +1,41 @@
+
+
+/* Estilo a nivel de etiqueta HTML*/
+body {
+    background-color: #80FAF2;
+}
+/* Estilo a nivel de id*/
+#tituloprincipal {
+    margin-top: 15px;
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 5px;
+}
+/* Estilo a nivel de clase*/
+.resultado {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.carousel-inner{
+    margin-top: 2%;
+    margin-left: 12%;
+    height: 550px;
+
+
+}
+.card{
+    margin-top: -77%;
+    margin-left: -78%;
+    height: 550px;
+}
+
+.carousel-inner img {
+    height: 550px;
+    width: 200px;
+
+
+
+}
